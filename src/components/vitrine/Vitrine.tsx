@@ -1,4 +1,4 @@
-import { IResultProductProps } from '..';
+import { IResultProductProps } from '../result/Result';
 
 export const Vitrine: React.FC<IResultProductProps> = ({ description, img_urls, installment, original_price, price, score, title, url }) => {
 
